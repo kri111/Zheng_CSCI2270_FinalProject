@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1461829584 source:/home/user/Zheng_CSCI2270_FinalProject/FinalProject_dictionary/main.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<cstdlib>
+
