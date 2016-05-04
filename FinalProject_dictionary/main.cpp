@@ -94,8 +94,10 @@ void Dictionary::searchWord(string key)
 {
     int low=0,high=wordsNum-1;  //
     int index=BinSeareh(low, high, key);
-    if(index>=0)
-        cout<<key<<"--->"<<words[index].getWord_class()+"\t"<<words[index].getChinese();
+    if(index>=0){
+        //cout<<key<<"--->"<<words[index].getWord_class()+"\t"<<words[index].getChinese();
+        cout<<key<<"--->"<<words[index].getChinese()+"\t"<<words[index].getWord_class();
+    }
     else
         cout<<"None result";
     cout<<endl<<endl;
@@ -119,4 +121,3 @@ int main( )
     cout<<"Bye"<<endl<<endl;
     return 0;
 }
-
