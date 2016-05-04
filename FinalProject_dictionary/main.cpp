@@ -108,14 +108,14 @@ int main( )
 
     do
     {
-        cout<<"input the English word that you want to search,input 0000 to close:"<<endl;
+        cout<<"input the English word that you want to search,input quit to close:"<<endl;
         cin>>key;
-        if (key!="0000")
+        if (key!="quit")
         {
             dict.searchWord(key);
         }
     }
-    while(key!="0000");
+    while(key!="quit");
     cout<<"Bye"<<endl<<endl;
     return 0;
 }
